@@ -1,0 +1,72 @@
+html, body {
+  margin: 0;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto 0 auto;
+  font-family: 'Ubuntu', sans-serif;
+  padding-bottom: 2em;
+  padding: 0 1em 0 1em;
+}
+h1 {
+  color: #F10E29;
+  margin: 0;
+  font-size: 1.64em;
+}
+#logo {
+  font-family: 'Lobster Two', cursive;
+  font-size: 1.2em;
+  line-height: 2em;
+}
+#status {
+  padding: 0.12em;
+  font-size: .72em;
+  text-align: center;
+  font-weight: 100;
+  color: #F10E29;
+}
+article {
+  margin: 1em 0 2em 0;
+  border-bottom: dotted;
+  border-width: 0.2em;
+  border-color: rgba(0,0,0,.05);
+}
+article h1 {
+  color: black;
+  font-size: 1.46em;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.12em;
+}
+article h2 {
+  color: rgba(0,0,0,.65);
+  font-size: 1em;
+  margin: 0;
+  font-weight: 100;
+  padding: 0;
+  margin-bottom: .4em;
+}
+p {
+  font-weight: 100;
+  line-height: 1.5em;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.end {
+  text-align: right;
+  font-size: 1.4em;
+  line-height: 3em;
+}
+footer {
+  font-size: .76em;
+  font-weight: 100;
+  text-align: center;
+  line-height: 2em;
+}
+.i:hover {
+  cursor: pointer;
+}
